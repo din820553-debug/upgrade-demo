@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UPGRADE — Demo</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="logo" href="#">UP<span>GRADE</span></a><nav><button data-tab="upgrade" class="active">Апгрейд</button><button data-tab="inventory">Инвентарь</button><button data-tab="history">История</button></nav><div class="balance">◈ <b id="balance">1 000</b></div></header>
+<main>
+<section id="upgrade" class="tab active">
+<div class="hero"><div><small>DEMO • БЕЗ РЕАЛЬНЫХ ДЕНЕГ</small><h1>АПГРЕЙД<br><em>ПРЕДМЕТОВ</em></h1><p>Выбери предмет, цель и испытай удачу. Здесь используется только виртуальная валюта.</p></div><div class="orb">UP</div></div>
+<div class="upgrade-box">
+<div class="pick"><h3>ТВОЙ ПРЕДМЕТ</h3><div id="sourceCard" class="selected-card"></div><button id="prevSource">‹</button><button id="nextSource">›</button></div>
+<div class="chance"><div class="ring"><strong id="chance">50%</strong><span>ШАНС</span></div><div class="arrow">→</div><button id="upgradeBtn">АПГРЕЙД</button></div>
+<div class="pick"><h3>ПОЛУЧИТЬ</h3><div id="targetCard" class="selected-card"></div><button id="prevTarget">‹</button><button id="nextTarget">›</button></div>
+</div>
+<div id="result" class="result"></div>
+<h2>ВЫБЕРИ ЦЕЛЬ</h2><div id="market" class="grid"></div>
+</section>
+<section id="inventory" class="tab"><h1>ИНВЕНТАРЬ</h1><p class="muted">Твои виртуальные предметы</p><div id="inventoryGrid" class="grid"></div></section>
+<section id="history" class="tab"><h1>ИСТОРИЯ АПГРЕЙДОВ</h1><div id="historyList" class="history"></div></section>
+</main>
+<footer>UPGRADE DEMO · Развлекательный симулятор · Пополнение и вывод отсутствуют</footer>
+<script src="script.js"></script></body></html>
